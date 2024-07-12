@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://CodyReichert.github.io/open-iconic-search",
   "dependencies": {
+    "aws-amplify": "^6.4.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.5.0",
     "open-iconic": "1.1.1",
@@ -23,8 +24,16 @@
     "flow": "flow"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.0.4",
+    "@aws-amplify/backend-cli": "^1.1.0",
+    "aws-cdk": "^2.148.1",
+    "aws-cdk-lib": "^2.148.1",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.0",
     "flow-bin": "^0.81.0",
     "gh-pages": "^2.0.0",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
   }
 }
